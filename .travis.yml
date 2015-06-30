@@ -5,5 +5,9 @@ before_install:
 
 script:
 - curl -svo data http://dm4.tw/ip
+- git add .
+- git commit -m 'Automatic commit (travis-ci)'
 - chmod 600 ./travis.pem
-- ssh -i ./travis.pem git@github.com
+- ssh-add ./travis.pem
+- git remote -v
+- git push origin master
