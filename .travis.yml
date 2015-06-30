@@ -11,5 +11,5 @@ script:
 - git commit -m 'Automatic commit (travis-ci)'
 - chmod 600 ~/.ssh/id_rsa
 - git remote -v
-- ssh git@github.com
-- git push origin master
+- git remote add deploy git@github.com:dm4/travis-test.git
+- git push deploy master
