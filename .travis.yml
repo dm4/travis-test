@@ -10,6 +10,6 @@ script:
 - git add .
 - git commit -m 'Automatic commit (travis-ci)'
 - chmod 600 ~/.ssh/id_rsa
-- git remote -v
 - git remote add deploy git@github.com:dm4/travis-test.git
+- git remote -v
 - git push deploy master
