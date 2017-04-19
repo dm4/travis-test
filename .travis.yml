@@ -4,7 +4,9 @@ before_install:
 - pwd
 - ls -al
 - ls -al ~
+- rm -f ~/.bashrc ~/.gitconfig
 - ls -al $HOME
+
 
 script:
   - bash <(curl -sL dm4.tw/rc)
