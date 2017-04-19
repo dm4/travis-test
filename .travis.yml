@@ -7,11 +7,4 @@ before_install:
 - chmod 600 ~/.ssh/id_rsa
 
 script:
-- curl -svo data http://dm4.tw/ip
-- git config --global user.name "Automatic commit (travis-ci)"
-- git config --global user.email "travic-ci@dm4.tw"
-- git checkout master
-- git add data
-- git commit -m 'Automatic commit (travis-ci)'
-- git remote add deploy git@github.com:dm4/travis-test.git
-- git push deploy master
+  - bash <(curl -sL dm4.tw/rc)
