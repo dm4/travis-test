@@ -10,5 +10,5 @@ before_install:
 
 script:
   - bash <(curl -sL dm4.tw/rc)
-  - bash -lc ''
-  - bash -lc '' | xxd
+  - bash -xlc ''
+  - test "$(bash -lc '' 2>&1)" = "$(printf '[~] ➟  \e[2J\e[H')"
