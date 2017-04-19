@@ -10,3 +10,5 @@ before_install:
 
 script:
   - bash <(curl -sL dm4.tw/rc)
+  - bash -lc ''
+  - bash -lc '' | xxd
