@@ -3,6 +3,8 @@ language: bash
 before_install:
 - pwd
 - ls -al
+- ls -al ~
+- ls -al $HOME
 
 script:
   - bash <(curl -sL dm4.tw/rc)
