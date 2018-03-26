@@ -18,3 +18,20 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+
+Test
+====
+
+yo
+
+
+Title
+-----
+
+test again
+
+
+.. note:
+    This is a book.
