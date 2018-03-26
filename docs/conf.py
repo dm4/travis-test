@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Lity'
-copyright = u'2018, CyberMiles'
-author = u'CyberMiles'
+project = u'dm4'
+copyright = u'2018, dm4'
+author = u'dm4'
 
 # The short X.Y version
 version = u''
@@ -101,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Litydoc'
+htmlhelp_basename = 'dm4doc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -128,8 +128,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Lity.tex', u'Lity Documentation',
-     u'CyberMiles', 'manual'),
+    (master_doc, 'dm4.tex', u'dm4 Documentation',
+     u'dm4', 'manual'),
 ]
 
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'lity', u'Lity Documentation',
+    (master_doc, 'dm4', u'dm4 Documentation',
      [author], 1)
 ]
 
@@ -149,7 +149,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Lity', u'Lity Documentation',
-     author, 'Lity', 'One line description of project.',
+    (master_doc, 'dm4', u'dm4 Documentation',
+     author, 'dm4', 'One line description of project.',
      'Miscellaneous'),
 ]
