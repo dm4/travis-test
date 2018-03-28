@@ -1,37 +1,11 @@
-.. dm4 documentation master file, created by
-   sphinx-quickstart on Mon Mar 26 17:29:34 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+dm4
+===
 
-Welcome to dm4's documentation!
-================================
+abcde
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Table of Contents
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-
-
-Test
-====
-
-yo
-
-
-Title
------
-
-test again
-
-
-.. note:
-    This is a book.
+   test
+   test2
