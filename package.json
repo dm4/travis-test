@@ -1,0 +1,8 @@
+{
+  "name": "ssvm-napi-prebuilt",
+  "version": "0.4.0",
+  "description": "SSVM Node.js Addons",
+  "repository": "https://github.com/hydai/ssvm-napi.git",
+  "license": "Apache-2.0",
+  "main": "index.js"
+}
